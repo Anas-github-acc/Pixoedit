@@ -64,7 +64,7 @@ def change():
 def creating_cf():
 	from datetime import datetime as dt
 	n=dt.now()
-	a="switched_"+n.strftime("(%d-%m-%Y)%H:%M:%S")
+	a="switched_"+n.strftime("%d-%m-%Y_%H.%M.%S")
 	return a
 
 def _help():
